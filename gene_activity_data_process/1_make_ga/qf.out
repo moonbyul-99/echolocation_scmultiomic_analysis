@@ -1,0 +1,247 @@
+nohup: ignoring input
+2025-05-12 08:15:56 - INFO - begin processing hm data
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/logging/__init__.py", line 1100, in emit
+    msg = self.format(record)
+  File "/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/logging/__init__.py", line 943, in format
+    return fmt.format(record)
+  File "/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/logging/__init__.py", line 678, in format
+    record.message = record.getMessage()
+  File "/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/logging/__init__.py", line 368, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/rsun@ZHANGroup.local/sly_data/notebook/make_ga/4_qf_ga.py", line 52, in <module>
+    logging.info(scdata.close(),scdata.is_closed())
+Message: None
+Arguments: (True,)
+2025-05-12 08:21:29 - INFO - Computing fragment size distribution...
+/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/site-packages/snapatac2/plotting/__init__.py:97: FutureWarning:
+
+Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+
+/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/site-packages/snapatac2/plotting/__init__.py:98: FutureWarning:
+
+Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+
+2025-05-12 08:21:40 - INFO - raw scdata shape (13790, 0)
+2025-05-12 08:21:41 - INFO - filtered scdata shape (8896, 0)
+/home/rsun@ZHANGroup.local/sly_data/notebook/make_ga/4_qf_ga.py:82: FutureWarning:
+
+ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2025-05-12 08:21:49 - INFO - begin processing ng data
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/logging/__init__.py", line 1100, in emit
+    msg = self.format(record)
+  File "/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/logging/__init__.py", line 943, in format
+    return fmt.format(record)
+  File "/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/logging/__init__.py", line 678, in format
+    record.message = record.getMessage()
+  File "/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/logging/__init__.py", line 368, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/rsun@ZHANGroup.local/sly_data/notebook/make_ga/4_qf_ga.py", line 52, in <module>
+    logging.info(scdata.close(),scdata.is_closed())
+Message: None
+Arguments: (True,)
+2025-05-12 08:27:45 - INFO - Computing fragment size distribution...
+/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/site-packages/snapatac2/plotting/__init__.py:97: FutureWarning:
+
+Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+
+/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/site-packages/snapatac2/plotting/__init__.py:98: FutureWarning:
+
+Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+
+2025-05-12 08:27:55 - INFO - raw scdata shape (13664, 0)
+2025-05-12 08:27:56 - INFO - filtered scdata shape (10494, 0)
+/home/rsun@ZHANGroup.local/sly_data/notebook/make_ga/4_qf_ga.py:82: FutureWarning:
+
+ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2025-05-12 08:28:06 - INFO - begin processing qn data
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/logging/__init__.py", line 1100, in emit
+    msg = self.format(record)
+  File "/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/logging/__init__.py", line 943, in format
+    return fmt.format(record)
+  File "/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/logging/__init__.py", line 678, in format
+    record.message = record.getMessage()
+  File "/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/logging/__init__.py", line 368, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/rsun@ZHANGroup.local/sly_data/notebook/make_ga/4_qf_ga.py", line 52, in <module>
+    logging.info(scdata.close(),scdata.is_closed())
+Message: None
+Arguments: (True,)
+2025-05-12 08:34:45 - INFO - Computing fragment size distribution...
+/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/site-packages/snapatac2/plotting/__init__.py:97: FutureWarning:
+
+Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+
+/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/site-packages/snapatac2/plotting/__init__.py:98: FutureWarning:
+
+Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+
+2025-05-12 08:34:57 - INFO - raw scdata shape (11699, 0)
+2025-05-12 08:34:58 - INFO - filtered scdata shape (9236, 0)
+/home/rsun@ZHANGroup.local/sly_data/notebook/make_ga/4_qf_ga.py:82: FutureWarning:
+
+ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2025-05-12 08:35:08 - INFO - begin processing pc data
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/logging/__init__.py", line 1100, in emit
+    msg = self.format(record)
+  File "/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/logging/__init__.py", line 943, in format
+    return fmt.format(record)
+  File "/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/logging/__init__.py", line 678, in format
+    record.message = record.getMessage()
+  File "/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/logging/__init__.py", line 368, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/rsun@ZHANGroup.local/sly_data/notebook/make_ga/4_qf_ga.py", line 52, in <module>
+    logging.info(scdata.close(),scdata.is_closed())
+Message: None
+Arguments: (True,)
+2025-05-12 08:39:59 - INFO - Computing fragment size distribution...
+/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/site-packages/snapatac2/plotting/__init__.py:97: FutureWarning:
+
+Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+
+/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/site-packages/snapatac2/plotting/__init__.py:98: FutureWarning:
+
+Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+
+2025-05-12 08:40:08 - INFO - raw scdata shape (13678, 0)
+2025-05-12 08:40:09 - INFO - filtered scdata shape (9119, 0)
+/home/rsun@ZHANGroup.local/sly_data/notebook/make_ga/4_qf_ga.py:82: FutureWarning:
+
+ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2025-05-12 08:40:16 - INFO - begin processing xq data
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/logging/__init__.py", line 1100, in emit
+    msg = self.format(record)
+  File "/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/logging/__init__.py", line 943, in format
+    return fmt.format(record)
+  File "/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/logging/__init__.py", line 678, in format
+    record.message = record.getMessage()
+  File "/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/logging/__init__.py", line 368, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/rsun@ZHANGroup.local/sly_data/notebook/make_ga/4_qf_ga.py", line 52, in <module>
+    logging.info(scdata.close(),scdata.is_closed())
+Message: None
+Arguments: (True,)
+2025-05-12 08:46:27 - INFO - Computing fragment size distribution...
+/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/site-packages/snapatac2/plotting/__init__.py:97: FutureWarning:
+
+Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+
+/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/site-packages/snapatac2/plotting/__init__.py:98: FutureWarning:
+
+Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+
+2025-05-12 08:46:38 - INFO - raw scdata shape (11132, 0)
+2025-05-12 08:46:39 - INFO - filtered scdata shape (7706, 0)
+/home/rsun@ZHANGroup.local/sly_data/notebook/make_ga/4_qf_ga.py:82: FutureWarning:
+
+ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2025-05-12 08:46:48 - INFO - begin processing yb data
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/logging/__init__.py", line 1100, in emit
+    msg = self.format(record)
+  File "/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/logging/__init__.py", line 943, in format
+    return fmt.format(record)
+  File "/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/logging/__init__.py", line 678, in format
+    record.message = record.getMessage()
+  File "/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/logging/__init__.py", line 368, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/rsun@ZHANGroup.local/sly_data/notebook/make_ga/4_qf_ga.py", line 52, in <module>
+    logging.info(scdata.close(),scdata.is_closed())
+Message: None
+Arguments: (True,)
+2025-05-12 08:52:18 - INFO - Computing fragment size distribution...
+/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/site-packages/snapatac2/plotting/__init__.py:97: FutureWarning:
+
+Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+
+/home/rsun@ZHANGroup.local/anaconda3/envs/snapatac/lib/python3.10/site-packages/snapatac2/plotting/__init__.py:98: FutureWarning:
+
+Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+
+2025-05-12 08:52:29 - INFO - raw scdata shape (13759, 0)
+2025-05-12 08:52:30 - INFO - filtered scdata shape (7402, 0)
+/home/rsun@ZHANGroup.local/sly_data/notebook/make_ga/4_qf_ga.py:82: FutureWarning:
+
+ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
