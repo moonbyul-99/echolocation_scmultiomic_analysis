@@ -11,7 +11,7 @@ Fig_1 B-D + Fig_2 AB
    Refer the 3_anno_alldata.ipynb and the 4_anno_alldata.ipynb, generate Figure 1B
 3. Plot the marker dotplot and DEG heatmap using 05_marker.ipynb and 06_conserved_marker.ipynb, generate Figure 1 C,D
 4. Using the annotation information, readers could get the data for the cell porpotion
-   plot and generate Figure 2 A,B, please refer the 07_cell_ratio.ipynb for Figure 2B.
+   plot and generate Figure 2 A,B, please refer the 07_cell_ratio.ipynb for Figure 2B. 
 
 ## TASK_2_ANALYSIS (scRNA-seq based divergence score analysis)
 
@@ -20,21 +20,25 @@ Fig_2 CD + Supp Fig 4
 
 1. For the tissue level rna-divergence, using 1_tissue_diff.ipynb, generate Fig 2C
 2. For the celltype level rna-divergence, using 2_celltype_diff.ipynb, generate Fig 2D
-3. For the D-PGLS analysis,  first run 06_prepare_pgls_data.ipynb get the selected data, then run 4 *.r scripts to generate Supp Fig 4. 
+3. For the D-PGLS analysis,  first run 3_prepare_pgls_data.py get the selected data, 
+   then run 4_pgls_analysis.r and 5_pgls_analysis_hm.r scripts to generate Supp Fig 4. 
 
 ## TASK_3_ANALYSIS (HM scRNA-seq analysis)
 
 This dir contains the code for reproducing the following figures:
 Figure_3 A-C, F + Supp Fig_5 A, B, C + Supp Fig_6 + Supp Fig_9
 
-[require the gadata generation]
-
+For creating gene-activity data from scATAC-seq data, ref the make_ga/ dir
 1. HM scrna-seq fine analysis, ref 00_hmdata_full.ipynb + 01_cluster_1_modify.ipynb, Generate Figure_3 A and Supp Fig_5 A
 2. Cluster resolution analysis, ref 02_cluster_check.ipynb, get the cluster resolution test and generate Supp Fig_5 B, 
    and with the defined resolution, get the cell porpotion plot, Figure 3C + Supp Fig_5 C
 3. Using the GBDT based marker gene set identification, generate the Figure 3B using 03_gbdt_marker.ipynb and Supp Fig_6 using 04_modify_umap.ipynb
 4. Using the 05_cluster_tree.ipynb for the Figure 3F
-5. For additional species analysis, ref the content in dir supp_species_v2, generate the Supp Fig_9
+5. For additional species analysis, ref 07_cluster_recheck.ipynb, generate the Supp Fig_9.
+We listed the data links of supplementary species  
+in supplementary meterials. Some data require 
+re-analysis before 07_cluster_recheck.ipynb and 
+we will release these preprocessing scripts soon.
 
 ## TASK_4_ANALYSIS (Additional ZWS RNA data analysis)
 This dir contains the code for reproducing the following figures:
