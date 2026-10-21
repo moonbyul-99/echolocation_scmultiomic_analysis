@@ -53,7 +53,6 @@ Figure_4 B-D + Supp Fig_5 D, E
 ## TASK_5_ANALYSIS (Baisc ATAC-seq analysis + QC plot)
 This dir contains the code for reproducing the following figures:
 Supplementary Figure 3A-C
-Please read the readme.md in this dir.
 
 1. Get gene activity data, using 2_gadata.ipynb
 2. Using Harmonoy batch correction, using 3_harmony_gadata.py 
@@ -64,7 +63,6 @@ Please read the readme.md in this dir.
 ## TASK_6_ANALYSIS (scenic+ GRN analysis)
 This dir contains the code for reproducing the following figures:
 Figure 1E, Figure 2E,F, Figure 3G-I, Supplementary Figure 3D and Supplementary Figure 1, 2
-Please read the readme.md in this dir.
 
 1. For the brain regulation inference, please refer the 2_grn_global dir. Please read the readme_grn_global.md file for the cross species grn processing. 
    After the grn inference, Get the plot of Supplementary Figure 3D and Figure 1E using 11_get_species_reg_data.ipynb. Noted that the Figure 1E is a subset 
