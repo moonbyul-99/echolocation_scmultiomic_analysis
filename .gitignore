@@ -1,3 +1,6 @@
 *.h5ad
 TASK_3_ANALYSIS/07_cluster_recheck_raw.ipynb
 TASK_3_ANALYSIS/01_cluster1_modify_raw.ipynb 
+TASK_2_ANALYSIS/pgls_data/*
+TASK_2_ANALYSIS/06_prepare_pgls_data.ipynb
+TASK_4_ANALYSIS/04_scrna_label.ipynb
