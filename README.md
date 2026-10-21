@@ -29,7 +29,7 @@ This dir contains the code for reproducing the following figures:
 Figure_3 A-C, F + Supp Fig_5 A, B, C + Supp Fig_6 + Supp Fig_9
 
 For creating gene-activity data from scATAC-seq data, ref the make_ga/ dir
-1. HM scrna-seq fine analysis, ref 00_hmdata_full.ipynb + 01_cluster_1_modify.ipynb, Generate Figure_3 A and Supp Fig_5 A
+1. HM scrna-seq fine analysis, ref 00_hmdata_full.ipynb + 01_cluster_echo_ex.ipynb, Generate Figure_3 A and Supp Fig_5 A
 2. Cluster resolution analysis, ref 02_cluster_check.ipynb, get the cluster resolution test and generate Supp Fig_5 B, 
    and with the defined resolution, get the cell porpotion plot, Figure 3C + Supp Fig_5 C
 3. Using the GBDT based marker gene set identification, generate the Figure 3B using 03_gbdt_marker.ipynb and Supp Fig_6 using 04_modify_umap.ipynb
