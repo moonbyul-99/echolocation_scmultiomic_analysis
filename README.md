@@ -29,7 +29,7 @@ This dir contains the code for reproducing the following figures:
 Figure_3 A-C, F + Supp Fig_5 A, B, C + Supp Fig_6 + Supp Fig_9
 
 For creating gene-activity data from scATAC-seq data, ref the make_ga/ dir
-1. HM scrna-seq fine analysis, ref 00_hmdata_full.ipynb + 01_cluster_echo_ex.ipynb, Generate Figure_3 A and Supp Fig_5 A
+1. HM scrna-seq fine analysis, ref 00_hmdata_full.ipynb + 01_cluster_echo_ex.ipynb, Generate Figure_3 A and Supp Fig_5 A. The annotation result is listed in HM_cell_anno.csv.
 2. Cluster resolution analysis, ref 02_cluster_check.ipynb, get the cluster resolution test and generate Supp Fig_5 B, 
    and with the defined resolution, get the cell porpotion plot, Figure 3C + Supp Fig_5 C
 3. Using the GBDT based marker gene set identification, generate the Figure 3B using 03_gbdt_marker.ipynb and Supp Fig_6 using 04_modify_umap.ipynb
@@ -70,7 +70,8 @@ Figure 1E, Figure 2E,F, Figure 3G-I, Supplementary Figure 3D and Supplementary F
 2. For the regulation difference quantification across brain regions in Figure 2E, we generate the regulon differences file in 12_reg_outlier.ipynb. The 
    generated abs_diff_df_z.csv is the input data for the outlier analysis in Figure 2E. The Figure 2E data is calculated using outlier detection method, 
    one class SVM. For the regulon difference plot across species in HM, also refer 12_reg_outlier.ipynb.
-3. For the HM specific regulation inference, please refer the 1_grn_hm dir. 
+3. For the HM specific regulation inference, please refer the 1_grn_hm dir. Noted that the HM specific GRN inference is similar with the whole brain GRN 
+   inference, so we temporarily skipped the whole pipeline code and just provide the plot code. The complete code we will provide later.
    -  Figure 3G code, first run the 0_get_plot_data.py and then run the 1_regulon_dot_heatmap.ipynb 
    -  Figure 3H code, see 1_grn_hm/Figure_3H, first run the get_data.ipynb to get the required data, then using CytoScape to plot. For the GSEA analysis, 
    using the target gene in the selected eRegulons.
