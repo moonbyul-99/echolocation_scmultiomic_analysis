@@ -4,7 +4,7 @@
 
 This dir contains the code for reproducing the following figures:
 
-$\color{red}{\text{Fig\_1 B-D + Fig\_2 AB}}$
+$\color{red}{\text{Fig 1 B-D + Fig 2 AB}}$
 1. Prepare data, run 1_get_h5ad.py and 2_total_data.py.
 2. Perform the RNA-seq based cell annotation, including batch effect using harmony.
    Refer the 3_anno_alldata.ipynb and the 4_anno_alldata.ipynb, generate $\color{red}{\text{Figure 1B}}$
@@ -15,7 +15,7 @@ $\color{red}{\text{Fig\_1 B-D + Fig\_2 AB}}$
 ## TASK_2_ANALYSIS (scRNA-seq based divergence score analysis)
 
 This dir contains the code for reproducing the following figures: 
-$\color{red}{\text{Fig\_2 CD + Supp Fig 4}}$.
+$\color{red}{\text{Fig 2 CD + Supp Fig 4}}$.
 
 1. For the tissue level rna-divergence, using 1_tissue_diff.ipynb, generate $\color{red}{\text{Fig 2C}}$
 2. For the celltype level rna-divergence, using 2_celltype_diff.ipynb, generate $\color{red}{\text{Fig 2D}}$
@@ -26,15 +26,15 @@ $\color{red}{\text{Fig\_2 CD + Supp Fig 4}}$.
 ## TASK_3_ANALYSIS (HM scRNA-seq analysis)
 
 This dir contains the code for reproducing the following figures:
-$\color{red}{\text{Figure\_3 A-C, F}}$ + $\color{red}{\text{Supp Fig\_5 A, B, C}}$ + $\color{red}{\text{Supp Fig\_6}}$ + $\color{red}{\text{Supp Fig\_9}}$
+$\color{red}{\text{Figure 3 A-C, F}}$ + $\color{red}{\text{Supp Fig 5 A, B, C}}$ + $\color{red}{\text{Supp Fig 6}}$ + $\color{red}{\text{Supp Fig 9}}$
 
 For creating gene-activity data from scATAC-seq data, ref the make_ga/ dir
-1. HM scrna-seq fine analysis, ref 00_hmdata_full.ipynb + 01_cluster_echo_ex.ipynb, Generate $\color{red}{\text{Figure\_3 A and Supp Fig\_5 A}}$. The annotation result is listed in HM_cell_anno.csv.
-2. Cluster resolution analysis, ref 02_cluster_check.ipynb, get the cluster resolution test and generate Supp $\color{red}{\text{Fig\_5 B}}$, 
-   and with the defined resolution, get the cell proportion plot, $\color{red}{\text{Figure 3C + Supp Fig\_5 C}}$
-3. Using the GBDT based marker gene set identification, generate the $\color{red}{\text{Figure 3B}}$ using 03_gbdt_marker.ipynb and $\color{red}{\text{Supp Fig\_6}}$ using 04_modify_umap.ipynb
+1. HM scrna-seq fine analysis, ref 00_hmdata_full.ipynb + 01_cluster_echo_ex.ipynb, Generate $\color{red}{\text{Figure 3 A and Supp Fig 5 A}}$. The annotation result is listed in HM_cell_anno.csv.
+2. Cluster resolution analysis, ref 02_cluster_check.ipynb, get the cluster resolution test and generate Supp $\color{red}{\text{Fig 5 B}}$, 
+   and with the defined resolution, get the cell proportion plot, $\color{red}{\text{Figure 3C + Supp Fig 5 C}}$
+3. Using the GBDT based marker gene set identification, generate the $\color{red}{\text{Figure 3B}}$ using 03_gbdt_marker.ipynb and $\color{red}{\text{Supp Fig 6}}$ using 04_modify_umap.ipynb
 4. Using the 05_cluster_tree.ipynb for the $\color{red}{\text{Figure 3F}}$ 
-5. For additional species analysis, ref 07_cluster_recheck.ipynb, generate the $\color{red}{\text{Supp Fig\_9}}$.
+5. For additional species analysis, ref 07_cluster_recheck.ipynb, generate the $\color{red}{\text{Supp Fig 9}}$.
 We listed the data links of supplementary species  
 in supplementary meterials. Some data require 
 re-analysis before 07_cluster_recheck.ipynb and 
@@ -42,12 +42,12 @@ we will release these preprocessing scripts soon.
 
 ## TASK_4_ANALYSIS (Additional ZWS RNA data analysis)
 This dir contains the code for reproducing the following figures:
-$\color{red}{\text{Figure\_4 B-D}}$ + $\color{red}{\text{Supp Fig\_5 D, E}}$
+$\color{red}{\text{Figure 4 B-D}}$ + $\color{red}{\text{Supp Fig 5 D, E}}$
 
 1. 1_analysis.ipynb is the basic scRNA-seq analysis for the new ZWS data. 
 2. 2_neuron_label.ipynb is the label transfer notebook for the ZWS rna data and generate $\color{red}{\text{figure 4B}}$. 
 3. 3_rna_diff.ipynb generate the cluster differences result of $\color{red}{\text{Figure 4D}}$.
-4. Analysis above directly generate the data required for $\color{red}{\text{Supp Fig\_5 D, E and Figure 4C}}$.
+4. Analysis above directly generate the data required for $\color{red}{\text{Supp Fig 5 D, E and Figure 4C}}$.
 
 
 ## TASK_5_ANALYSIS (Baisc ATAC-seq analysis + QC plot)
@@ -57,7 +57,7 @@ $\color{red}{\text{Supplementary Figure 3A-C}}$.
 1. Get gene activity data, using 2_gadata.ipynb
 2. Using Harmonoy batch correction, using 3_harmony_gadata.py 
 3. Perform cell type annotation and check the annotation with scRNA-seq result, using 4_gadata_annotation.ipynb + 5_ga_fineanno.ipynb, 
-   generate the result of $\color{red}{\text{Supplementary Figure 3A-C}}$. $\color{red}{\text{Supp Fig\_3 B}}$ is similiar with $\color{red}{\text{Figure 1 C}}$, just change the data from rna-seq to gene activity,
+   generate the result of $\color{red}{\text{Supplementary Figure 3A-C}}$. $\color{red}{\text{Supp Fig 3 B}}$ is similiar with $\color{red}{\text{Figure 1 C}}$, just change the data from rna-seq to gene activity,
    so check the plot code of $\color{red}{\text{Figure 1C}}$.
 
 ## TASK_6_ANALYSIS (scenic+ GRN analysis)
