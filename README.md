@@ -4,7 +4,7 @@
 
 This dir contains the code for reproducing the following figures:
 
-Fig_1 B-D + Fig_2 AB
+**Fig_1 B-D** + **Fig_2 AB**
 
 1. Prepare data, run 1_get_h5ad.py and 2_total_data.py, generate file all_data.h5ad
 2. Perform the RNA-seq based cell annotation, including batch effect using harmony.
